@@ -1,0 +1,21 @@
+<!--数据库-->
+
+
+<litepal>
+
+<!--数据库名字-->
+    <dbname value="weather" />
+<!--数据库版本-->
+    <version value="1" />
+
+
+    <list>
+
+        <mapping class="com.example.lrp.auto.db.Province"/>
+        <mapping class="com.example.lrp.auto.db.City"/>
+        <mapping class="com.example.lrp.auto.db.County"/>
+
+    </list>
+
+
+</litepal>
